@@ -1,0 +1,30 @@
+html, body{
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  align-items: center;
+}
+
+.wrapper{
+  border: white solid 20px;
+  margin: 30px;
+  background-color: rgb(126, 126, 126);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cat-img{
+  margin-top: 10px;
+  width: 800px;
+  border: #fff solid 4px;
+}
+
+p{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: white;
+  font-family: monospace;
+}
